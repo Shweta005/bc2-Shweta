@@ -10,6 +10,8 @@ contract TokenSwap {
         token = _token;
     }
 
+ //KYC code remaining
+
   //Events
    event TokenPurchased(
     address account,

@@ -1,11 +1,13 @@
-pragma solidity ^0.8.0;
-
-contract Token {
+pragma solidit
+import "@openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
+contract Token is ERC20 {
     string  public name = "JPM Token";
     string  public symbol = "JPM";
     uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
     uint8   public decimals = 0;
 
+   
+   
     event Transfer(
         address indexed _from,
         address indexed _to,
